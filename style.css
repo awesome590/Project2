@@ -261,9 +261,12 @@ input {
     margin-left: 24px;
 }
 .steps__right--column {
+    margin-left: 64px;
+}
+.right__column--content{
     padding: 32px 0;
     display: flex;
-    
+    flex-direction: column;
 }
 .right__column h1 {
     font-size: 48px;
@@ -292,7 +295,10 @@ input {
     padding: 96px 0;
 }
 .value__left--column {
-    padding: 32px 0
+    margin-right: 64px;
+}
+.left__column--content {
+    padding: 32px 0;
 }
 .para {
     margin-top: 16px;
@@ -320,3 +326,124 @@ input {
     border: none;
 }
 /*Pricing*/
+.pricing {
+    height: 100%;
+    max-height: 1090px;
+}
+.pricing__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing__container h1 {
+    font-size: 48px;
+}
+div.pricing__container p.desc {
+    text-align: center;
+    width: 45%;
+}
+.plans {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.plan {
+    width: calc(100%/3);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 64px 32px 0 0;
+    padding: 8px, 32px, 0;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px 0 #a0aec07a;
+}
+.plan__select {
+    height: 9px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.personal__select {
+    height: 9px;
+    background: linear-gradient(115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%);
+}
+.plan__header {
+    padding: 32px 0;
+}
+.plan__header h3 {
+    font-size: 20px;
+}
+.plan__header h2 {
+    font-size: 48px;
+    margin: 4px 0;
+}
+.plan__header p {
+    font-size: 16px;
+    color: #a0aec0;
+}
+.plan__info {
+    margin: 0 -32px;
+    padding: 32px;
+    width: 100%;
+}
+.plan__info h3 {
+    font-size: 20px;
+}
+.plan__info p {
+    font-size: 16px;
+    color: #718096;
+    margin-top: 20px;
+}
+.plan button {
+    margin: 32px 64px;
+    border: none;
+    padding: 16px 32px;
+    height: 100%;
+    width: 50%;
+}
+#personal {
+    background: linear-gradient(115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%);
+}
+.personal__info {
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-color: rgb(226, 232, 240);
+}
+.business__plan {
+    background: linear-gradient(135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%);
+    color: white;
+}
+.business__plan--info {
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-color: rgb(102 126 234);
+}
+.business__plan--info p {
+    color: white;
+}
+#business {
+    background: white;
+    color: #6415ff;
+}
+.enterprise__info {
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-color: rgb(226, 232, 240);
+}
+.enterprise__select {
+    background: linear-gradient(115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%);
+}
+#enterprise {
+    background: linear-gradient(115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%);
+}
