@@ -28,7 +28,7 @@ button {
     font-weight: 600;
 }
 .root {
-    padding: 32px;
+    padding: 32px 32px 0 32px;
     max-width: 100%;
 }
 .subtitle {
@@ -148,6 +148,9 @@ input {
     color: #a0aec0;
 }
 /*Features*/
+#features {
+    height: 838px;
+}
 .features__container {
     padding: 96px 0;
     margin: 0 88px;
@@ -208,6 +211,7 @@ input {
 }
 /*Quality Work*/
 #quality {
+    height: 626px;
     margin: 0px 29px;
     padding: 96px 0;
 }
@@ -247,6 +251,9 @@ input {
     border-radius: 4px;
 }
 /*Steps*/
+#steps {
+    height: 732px;
+}
 .steps__container {
     display: flex;
     padding: 96px 0;
@@ -290,6 +297,9 @@ input {
     gap: 10%;
 }
 /*Values*/
+#values {
+    height: 820px;
+}
 .values__container {
     display: flex;
     padding: 96px 0;
@@ -328,6 +338,7 @@ input {
 /*Pricing*/
 #pricing {
     padding: 96px 0;
+    height: 1090px;
 }
 .pricing {
     height: 100%;
@@ -454,8 +465,9 @@ div.pricing__container p.desc {
 footer {
     overflow: hidden;
     width: 100%;
-    padding: 96px 0;
-    background-color: #6415ff;
+    height: 522px;
+    padding-top: 96px;
+    background-color: rgb(100, 21, 255);
     font-weight: 500;
 }
 .footer_container {
@@ -469,7 +481,6 @@ footer {
     display: flex;
     flex-direction: column;
     width: calc(100%/5);
-    align-items: center;
 }
 .link a {
     text-decoration: none;
@@ -485,4 +496,51 @@ footer {
     font-size: 16px;
     color: #f7fafc;
     font-weight: 700;
+}
+.footer__divider {
+    margin: 64px 0;
+    width: 100%;
+    border: solid 1px #7c8ba152;
+}
+.footer__info {
+    display: flex;
+    color: #f7fafc;
+    justify-content: space-between;
+}
+.footer_logo {
+    display: flex;
+    align-items: center;
+}
+.footer_logo img {
+    height: 32px;
+    width: 32px;
+}
+.footer__info h2 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 8px;
+}
+.footer__middle {
+    font-size:16px;
+    color: #d0d5db;
+    display: flex;align-items: center;
+}
+.footer__media {
+    display: flex;
+}
+.footer__media--link {
+    color: black;
+    height: 32px;
+    width: 32px;
+    margin-right: 16px;
+    padding: 8px 12px;
+    border-radius: 99999px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__media--link i {
+    height: 16px;
+    width: 16px;
 }
