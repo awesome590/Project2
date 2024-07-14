@@ -15,7 +15,7 @@
                     <div class="nav__container">
                         <div class="logo__container">
                             <img class="logo" src="assets/logo.svg" alt="Treact Logo">
-                            <h1 class="logo__text">Treact</h1>
+                            <a class="logo__text" href="#">Treact</a>
                         </div>
                         <div class="nav__links">
                                 <a href="#" class="nav__link">About</a>
@@ -25,6 +25,9 @@
                                 <a href="#" class="nav__link nav__link--login">Login</a>
                                 <button class="btn__sign no-cursor">Sign Up</button>
                         </div>
+                        <a href="" class="btn__menu">
+                            <i class="fas fa-bars"></i>
+                        </a>
                     </div>
                 </nav>
             </div>
@@ -32,17 +35,15 @@
                 <div class="row">
                     <div class="header__container">
                         <div class="header__left">
-                            <div class="header__desc">
-                                <h1>
+                                <h1 class="header__desc">
                                     Beautiful React Templates <span class="purple">for you.</span>
                                 </h1>
-                            </div>
                                 <div class="header__para">
                                     <p>
                                         Our templates are easy to setup, understand and customize.
                                         Fully modular components with a variety of pages and components.
                                     </p>
-                                <div class="email_in">
+                                <div class="email__in">
                                     <input type="text" placeholder="Your E-mail Address">
                                     <button class="btn__start">Get Started</button>
                                 </div>
@@ -76,7 +77,7 @@
                             </figure>
                             <div class="ind__service--desc">
                                 <h2>Secure</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, dignissimos distinctio!</p>
+                                <p>Lorem ipsum dolor sit amet consecte elit. Asperna, digniss sapiente voluptas distinctio!</p>
                             </div>
                         </div>
                         <div class="ind__service">
@@ -94,7 +95,7 @@
                             </figure>
                             <div class="ind__service--desc">
                                 <h2>Customizable</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, perspiciatis consequatur.
+                                <p>Lorem ipsum dolor sit amet consect adipis elit. Conseq, perspiciatis consequatur.
                                 </p>
                             </div>
                         </div>
@@ -104,7 +105,7 @@
                             </figure>
                             <div class="ind__service--desc">
                                 <h2>Reliable</h2>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, quisquam architecto.</p>
+                                <p>Lorem ipsum, dolor sit amet consect sapiente volu adipisi elit. Maxime, quis architecto.</p>
                             </div>
                         </div>
                         <div class="ind__service">
@@ -122,7 +123,7 @@
                             </figure>
                             <div class="ind__service--desc">
                                 <h2>Easy</h2>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, assumenda facere lorem.</p>
+                                <p>Lorem ipsum, dolor sit amet consec adipisi elit. Veritatis, assumenda facere lorem.</p>
                             </div>
                         </div>
                     </div>
@@ -132,14 +133,14 @@
         <section id="quality">
             <div class="row">
                 <div class="quality__container">
-                    <div class="left__column quality__left--column">
+                    <div class="quality__left--column">
                         <p class="subtitle"> quality work</p>
                         <h1> Designed & Developed by <span class="purple">Professionals.</span></h1>
                         <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, totam, blanditiis magni molestias velit incidunt dignissimos maiores ex, animi sit architecto quasi non omnis illo eius suscipit commodi sunt? Repellendus sapiente natus voluptatem distinctio placeat non!
                         </p>
                         <button>Learn More</button>
                     </div>
-                    <div class="right__column">
+                    <div class="right__column--quality">
                         <img src="/assets/hero-screenshot.png" alt="Landing Page Screenshot">
                     </div>
                 </div>
@@ -148,8 +149,8 @@
         <section id="steps">
             <div class="row">
                 <div class="steps__container">
-                    <div class="left__column">
-                        <figure>
+                    <div class="left__column--steps">
+                        <figure class="left__column--img">
                             <img src="/assets/hero-screenshot-2.241aac1fbc66db29d873.png" alt="Laptop">
                         </figure>
                     </div>
@@ -168,7 +169,7 @@
                             <div class="step__num">02</div>
                             <div class="step__text">
                             <h6 class="step__title">Download</h6>
-                            <p class="step__inst">Brose and Download the template that you like from the marketplace.</p>
+                            <p class="step__inst">Browse and Download the template that you like from the marketplace.</p>
                             </div>
                         </div>
                         <div class="ind__step">
@@ -186,26 +187,30 @@
         <section id="values">
             <div class="row">
                 <div class="values__container">
-                    <div class="left__column value__left--column">
-                        <div class="left__column--content">
+                    <div class="value__left--column">
                         <p class="subtitle">values</p>
                         <h1>We Always Abide by Our <span class="purple">Principles.</span></h1>
                         <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, consectetur autem sint tempore beatae voluptate totam. Excepturi cumque repudiandae fuga enim, maiores vero culpa ducimus nisi tenetur veniam omnis? Cum, consectetur beatae.
                         </p>
                         <div class="values__double--column">
-                            <div class="double__column--left">
-                                <h6>Affordable</h6>
+                            <div class="double__column">
+                                <div class="double__column--header">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                    <h3>Affordable</h3>
+                                </div>
                                 <p>We promise to offer you the best rate we can - at par with the industry standard.</p>
                             </div>
-                            <div class="double__column--right">
-                                <h6>Professionalism</h6>
+                            <div class="double__column">
+                                <div class="double__column--header">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                    <h3>Professionalism</h3>
+                                </div>
                                 <p>We assure you that our templates are designed and created by professional designers.</p>
                             </div>
                         </div>
                         <button>Learn More</button>
-                        </div>
                     </div>
-                    <div class="right__column">
+                    <div class="right__column--values">
                         <figure class="value__img">
                             <img src="/assets/prototype-illustration.svg" alt="Illustration">
                         </figure>
